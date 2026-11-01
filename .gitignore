@@ -1,0 +1,19 @@
+# Données Kaggle
+data/raw/*
+data/processed/*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environnement
+.env
+
+# Fichiers temporaires
+*.log
+.DS_Store
