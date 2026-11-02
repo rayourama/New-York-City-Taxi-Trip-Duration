@@ -4,3 +4,5 @@ Groupe :
 - RAMASSAMY Ryan
 - BENKERRI Ranim
 - HAMZAOUI Thameur
+
+Télécharger les fichiers zip du défi Kaggle et les dézipper dans le dossier data/raw.
