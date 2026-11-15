@@ -1,0 +1,18 @@
+# Large dataset files (exceeds GitHub 100MB limit)
+train.csv
+test.csv
+
+# CatBoost training logs
+catboost_info/
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# System and logs
+*.log
+.DS_Store
