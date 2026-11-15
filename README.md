@@ -230,22 +230,3 @@ La solution s'appuie sur un ensemble complet de variables géométriques et cont
 > 2. **Convergence complète des hyperparamètres** (`lr=0.05`, 3000 rounds, `num_leaves=255`, `max_depth=9`).
 > 3. **Caractéristiques expertes** (interactions distance $\times$ heure, log-distances, indicateurs aéroports & Manhattan).
 > 4. **Ensemble Blending pondéré** réduisant la variance des prédictions.
-
----
-
-## 6. Comment Utiliser et Re-exécuter le Projet
-
-### Consultation directe
-Le notebook maître est déjà entièrement exécuté et prêt à être consulté dans VS Code ou Jupyter :
-👉 **[`NYC_Taxi_Trip_Duration_Master.ipynb`](./NYC_Taxi_Trip_Duration_Master.ipynb)**
-
-### Soumission directe sur Kaggle
-Le fichier de soumission est généré, vérifié et prêt à l'emploi :
-👉 **[`submission.csv`](./submission.csv)** (11.35 Mo, 625 134 lignes).
-
-### Ré-exécution complète en ligne de commande (si souhaité)
-Pour ré-exécuter l'ensemble des 26 cellules du notebook de zéro et régénérer un fichier `submission.csv` :
-```powershell
-$env:LOKY_MAX_CPU_COUNT = "$env:NUMBER_OF_PROCESSORS"
-jupyter nbconvert --to notebook --execute --inplace NYC_Taxi_Trip_Duration_Master.ipynb
-```
